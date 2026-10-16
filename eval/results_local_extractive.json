@@ -1,0 +1,231 @@
+{
+  "summary": {
+    "embedder": "local-wordllama-256",
+    "llm": null,
+    "retrieval": {
+      "bm25": {
+        "hit@1": 0.812,
+        "hit@3": 0.938,
+        "hit@5": 1.0
+      },
+      "dense": {
+        "hit@1": 0.625,
+        "hit@3": 0.688,
+        "hit@5": 0.812
+      },
+      "hybrid": {
+        "hit@1": 0.75,
+        "hit@3": 0.938,
+        "hit@5": 1.0
+      }
+    },
+    "answers": {
+      "key_fact_correct_all": 0.6,
+      "key_fact_correct_answerable": 0.75,
+      "refusal_correct_unanswerable": 0.0,
+      "false_refusals_on_answerable": 0
+    }
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "question": "Which body is designated as the Data Protection Authority?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "PART II Data Protection Authority 5 Designation of Postal and Telecommunications Regulatory Authority as Data Protection Authority The Postal and Telecommunications Regulatory Authority established in terms of the Postal and Telecommunications Act [Chapter 12:05] is hereby designated as the Data Protection Authority. [1] 6 Functions of Data Protection Authority (1) The Authority shall perform the following functions— (a) to regulate the manner in which personal information may be processed through the establishment of conditions for the lawful processing of data; [1] PART II Data Protection Authority [3]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q02",
+      "question": "Within how many hours must a data controller notify the Authority of a security breach?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "19 Security breach notification The data controller shall notify the Authority within twenty-four (24) hours of any security breach affecting data he or she processes. [1] (4) The Authority may, during working hours, carry out further inspection and assessment of the security and organisational measures employed by a data controller subject to reasonable notification to the data controller of the Authority’s intended inspection and assessment. [3] 20 Obligation of notification to Authority (1) Prior to any wholly or partly automated operation or set of operations intended to serve a single purpose or several related purposes, the controller or his or her representative, if any, must notify the Authority. [1]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q03",
+      "question": "Up to what age is a person considered a child under the Act?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "(3) Any person of 18 years or above, who unlawfully and intentionally through information and communication technologies, proposes to meet a child who has not reached the age of consent to sexual activity as set by the Criminal Law (Codification and Reform Act) [Chapter 9:23] for the purpose of engaging in sexual activity with him or her, where this proposal has been followed by material acts leading to such a meeting, shall be guilty of an offence and liable to a fine not exceeding level 14 or to imprisonment for a period not exceeding ten years, or both such fine and such imprisonment. [1] ZIMBABWE 3 Interpretation In this Act— “child” means any person under the age of eighteen years; [4] 165A Child sexual abuse material (1) In this Act— “Child sexual abuse material” means any representation through publication, exhibition, cinematography, electronic means or any other means whatsoever, of a child, a person made to appear as a child or realistic material representing a child, engaged in real or simulated explicit sexual activity, or any representation of the sexual parts of a child for primarily sexual purposes. [1]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q04",
+      "question": "What rights does a data subject have under the Act?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "27 Representation of physically, mentally or legally incapacitated data subjects (1) A data subject who is physically, mentally or legally incapable of exercising the rights given under this Act and who is not subject to the provisions of section 26, [1] 26 Representation of data subject who is child Where the data subject is a child, his or her rights pursuant to this law may be exercised by his or her parents or legal guardian. [1] 22 Authorisation (1) The Authority shall establish the categories of data processing which represent specific risks to the fundamental rights of the data subject and which require specific authorisation from the Authority. [1]",
+      "key_fact_correct": false
+    },
+    {
+      "id": "q05",
+      "question": "What kind of consent is needed before a data controller may process sensitive data?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "11 Sensitive information (1) No data controller shall process sensitive data unless the data subject has given consent in writing for such processing; [2] (3) The processing of non-sensitive data is permitted, without the consent of the data subject, where necessary for purposes of— (a) being material as evidence in proving an offence; [1] (3) The Authority shall determine the circumstances in which the prohibition to process the data referred to in this subsection (1) cannot be lifted even with the data subject’s consent (taking into account the factors surrounding the prohibition and the reasons for collecting the data). [2]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q06",
+      "question": "When may a data controller transfer personal information to a third party in a foreign country?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "PART VII transborDer flow 28 Transfer of personal information outside Zimbabwe (1) Subject to the provisions of this Act, a data controller may not transfer personal information about a data subject to a third party who is in a foreign country unless an adequate level of protection is ensured in the country of the recipient or within the recipient international organisation and the data is transferred solely to allow tasks covered by the competence of the controller to be carried out. [1] “recipient” a natural or legal person, agency or any other body to whom personal information is disclosed by a data controller, whether a third party or not; [3] (c) the transfer is necessary for the conclusion or performance of a contract concluded or to be concluded between the controller and a third party in the interest of the data subject; [1]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q07",
+      "question": "Who may exercise the rights of a data subject who is a child?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "26 Representation of data subject who is child Where the data subject is a child, his or her rights pursuant to this law may be exercised by his or her parents or legal guardian. [1] 27 Representation of physically, mentally or legally incapacitated data subjects (1) A data subject who is physically, mentally or legally incapable of exercising the rights given under this Act and who is not subject to the provisions of section 26, may exercise such rights through a parent or guardian or as provided for by law or as designated by a Court of competent jurisdiction. [2] 26 Representation of data subject who is child Where the data subject is a child, his or her rights pursuant to this law may be exercised by his or her parents or legal guardian. [2]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q08",
+      "question": "Can a data subject refuse to be subject to decisions made solely by automated processing, and are there exceptions?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "PART VI Data subject 25 Decision taken on basis of Automatic Data Processing (1) The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her. [1] (2) The right referred to in subsection (1) shall not be applicable if the decision based solely on automated processing is taken on the basis of the data subject having consented to such decision or is based on a provision established by law. [1] or (f) the processing relates to data which has been made public by the data subject; [2]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q09",
+      "question": "Where can a person aggrieved by a decision of the Data Protection Authority appeal?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "34 Appeals Any person aggrieved by the decision of the Authority may appeal to the Administrative Court. [3] PART II Data Protection Authority 5 Designation of Postal and Telecommunications Regulatory Authority as Data Protection Authority The Postal and Telecommunications Regulatory Authority established in terms of the Postal and Telecommunications Act [Chapter 12:05] is hereby designated as the Data Protection Authority. [2] 6 Functions of Data Protection Authority (1) The Authority shall perform the following functions— (a) to regulate the manner in which personal information may be processed through the establishment of conditions for the lawful processing of data; [2]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q10",
+      "question": "What is the maximum penalty for a data controller who contravenes section 11, 13, 18(4), 24 or 28?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "(2) Any data controller, his or her representative, agent or assignee who contravenes section 11, 13, 18(4), 24 and 28 shall be guilty of an offence and liable to a fine not exceeding level 11 or to imprisonment for a period not exceeding seven years or to both such fine and such imprisonment. [1] (4) Any person who contravenes this section in any of the aggravating circumstances described in section 13 shall be liable to a fine not exceeding level 14 or to imprisonment for a period not exceeding ten years or to both such fine and such imprisonment. [4] 19 Security breach notification The data controller shall notify the Authority within twenty-four (24) hours of any security breach affecting data he or she processes. [2]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q11",
+      "question": "What is the penalty for sending spam?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "164D Spam Any person who intentionally and without lawful excuse— (a) uses a protected computer system to relay or retransmit multiple electronic mail messages, with the intent to deceive or mislead recipients or any electronic mail or internet service provider as to the origin of such messages; [1] 164A Sending threatening data message (1) Any person who unlawfully and intentionally by means of a computer or information system sends any data message to another person threatening harm to the person or the person’s family or friends or damage to the property of such persons shall be guilty of an offence and liable to a fine not exceeding level 10 or to imprisonment for a period not exceeding five years or to both such fine and such imprisonment. [1] 164A Sending threatening data message (1) Any person who unlawfully and intentionally by means of a computer or information system sends any data message to another person threatening harm to the person or the person’s family or friends [2]",
+      "key_fact_correct": false
+    },
+    {
+      "id": "q12",
+      "question": "What is the maximum prison sentence for cyber-bullying and harassment?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "PART II offences relatinG to electronic communications anD materials 164B Cyber-bullying and harassment Any person who unlawfully and intentionally by means of a computer or information system generates and sends any data message to another person, or posts on any material whatsoever on any electronic medium accessible by any person, with the intent to coerce, intimidate, harass, threaten, bully or cause substantial emotional distress, or to degrade, humiliate or demean the person of another or to encourage a person to harm himself or herself, shall be guilty of an offence and liable to a fine not exceeding level 10 or to imprisonment for a period not exceeding ten years or to both such fine and such imprisonment. [1] (f) any computer, computer network, information communications network data, programme or system involved is owned by the State, a law enforcement agency, the Defence Forces, the Prison Service, a statutory corporation or a local authority; [2] on cyber security and the interception of communications in terms of this Act.”. [3]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q13",
+      "question": "Is electronic evidence admissible in criminal proceedings, and what is considered when weighing it?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "379E Admissibility of electronic evidence (1) In any criminal proceedings for an offence in terms of this Act, evidence generated from a computer system or by means of information and communications technologies or electronic communications systems shall be admissible in court. [1] (4) This section shall apply in addition to and not in substitution of any other law in terms of which evidence generated by computer systems or information and communications technologies or electronic communications systems or devices may be admissible in evidence. [1] (c) the manner in which the originator or recipient of the evidence was identified; [1]",
+      "key_fact_correct": false
+    },
+    {
+      "id": "q14",
+      "question": "How many members does the Cyber Security Committee have, and whom does it advise?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "(7) The principal Act is amended in section 5 by the insertion after subsection (3) of the following subsection— “(4) The Minister, upon receiving an application for a warrant in terms of this section, shall refer the application to the Cyber security committee, who shall advise the Minister on whether or not any of the reasonable grounds to issue a warrant referred to in section 6 are present: [1] (3) From among the appointed members, the Minister shall appoint the Chairperson of the Cyber Security Committee. [1] (2) The Cyber Security Committee shall consist of eleven members appointed by the Minister for their knowledge in computer and telecommunications, law and policy and skills in respect of any aspect dealt with in this Act as follows— (a) one representative nominated by each of the following— (i) the Postal and Telecommunications Regulatory Authority of Zimbabwe; [1]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q15",
+      "question": "What quality requirements must processed data meet?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "PART III Quality of Data 7 Quality of Data (1) The data controller shall ensure that data processed is— (a) adequate, relevant and not excessive in relation to the purposes for which it is collected or further processed; [1] PART IV General rules on the ProcessinG of Data 8 Generality The data controller shall ensure that the processing of data is necessary and that the data is processed fairly and lawfully. [1] 9 Purpose (1) The data controller shall ensure that data is collected for specified, explicit and legitimate purposes and, taking into account all relevant factors, especially the reasonable expectations of the data subject and the applicable legal and regulatory provisions, that the data is not further processed in a way incompatible with such purposes. [1]",
+      "key_fact_correct": false
+    },
+    {
+      "id": "q16",
+      "question": "What must a data controller do before starting a wholly or partly automated processing operation?",
+      "answerable": true,
+      "retrieval_hit@k": true,
+      "mode": "extractive",
+      "found": true,
+      "answer": "20 Obligation of notification to Authority (1) Prior to any wholly or partly automated operation or set of operations intended to serve a single purpose or several related purposes, the controller or his or her representative, if any, must notify the Authority. [1] 4 Application (1) This Act shall apply to matters relating to access to information, protection of privacy of information and processing and storage of data wholly or partly by automated means: [3] 18 Security (1) In order to safeguard the security, integrity and confidentiality of the data, the controller or his or her representative, if any, or the processor, shall take the appropriate technical and organisational measures that are necessary to protect data from negligent or unauthorised destruction, negligent loss, unauthorised alteration or access and any other unauthorised processing of the data. [1]",
+      "key_fact_correct": true
+    },
+    {
+      "id": "q17",
+      "question": "What annual licence fee must a data controller pay to the Data Protection Authority?",
+      "answerable": false,
+      "retrieval_hit@k": null,
+      "mode": "extractive",
+      "found": true,
+      "answer": "(6) The Authority shall provide guidelines that provide for the qualifications and functions of data protection officer and such data protection officer’s duties shall include— (a) ensuring compliance by the data controller with the provisions of this Act and regulations made thereunder; [2] “code of conduct” refers to the Data Use Charters drafted by the data controller in order to institute the rightful use of IT processes, the Internet, and electronic communications of the structure concerned, and which have been approved by the Data Protection Authority; [5] 20 Obligation of notification to Authority (1) Prior to any wholly or partly automated operation or set of operations intended to serve a single purpose or several related purposes, the controller or his or her representative, if any, must notify the Authority. [1]",
+      "key_fact_correct": false
+    },
+    {
+      "id": "q18",
+      "question": "Who is the current Minister responsible for ICT in Zimbabwe?",
+      "answerable": false,
+      "retrieval_hit@k": null,
+      "mode": "extractive",
+      "found": true,
+      "answer": "(4) The Minister responsible for the Cyber security and Monitoring Centre in consultation with the Minister, may give directions on how to implement this section with respect to transfer of personal information outside of Zimbabwe. [4] (i) to conduct research on policy and legal matters relating to the development of international best practices on the protection of personal information in Zimbabwe and advise the Minister accordingly; [2] (d) to submit to any Court any administrative act which is not compliant with the fundamental principles of the protection of the privacy in the framework of this Act as well as any law containing provisions regarding the protection of privacy in relation to the processing of data in consultation with Minister responsible for Information, Publicity and Broadcasting Services; [2]",
+      "key_fact_correct": false
+    },
+    {
+      "id": "q19",
+      "question": "What is the minimum salary for a data protection officer?",
+      "answerable": false,
+      "retrieval_hit@k": null,
+      "mode": "extractive",
+      "found": true,
+      "answer": "(b) the data controller has appointed a data protection officer. [1] (6) The Authority shall provide guidelines that provide for the qualifications and functions of data protection officer and such data protection officer’s duties shall include— (a) ensuring compliance by the data controller with the provisions of this Act and regulations made thereunder; [1] (5) The appointment of the data protection officer shall be duly notified to the Authority. [1]",
+      "key_fact_correct": false
+    },
+    {
+      "id": "q20",
+      "question": "How many data breaches were reported in Zimbabwe in 2023?",
+      "answerable": false,
+      "retrieval_hit@k": null,
+      "mode": "extractive",
+      "found": true,
+      "answer": "PART VII transborDer flow 28 Transfer of personal information outside Zimbabwe (1) Subject to the provisions of this Act, a data controller may not transfer personal information about a data subject to a third party who is in a foreign country unless an adequate level of protection is ensured in the country of the recipient or within the recipient international organisation and the data is transferred solely to allow tasks covered by the competence of the controller to be carried out. [1] 29 Transfer to country outside Zimbabwe which does not assure adequate level of protection A transfer or a set of transfers of data to a country outside Zimbabwe which does not assure an adequate level of protection may take place in one of the following cases— (a) the data subject has unambiguously given his or her consent to the proposed transfer; [1] (3) The Authority shall lay down the categories of processing operations for which and the circumstances in which the transfer of data to countries outside the Republic of Zimbabwe is not authorised. [1]",
+      "key_fact_correct": false
+    }
+  ]
+}
