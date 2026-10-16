@@ -1,0 +1,12 @@
+beautifulsoup4==4.15.0
+faiss-cpu==1.15.1
+fastapi==0.143.2
+numpy==2.4.6
+openai==3.31.0
+pydantic==2.14.1
+pypdf==6.20.1
+python-multipart==0.0.32
+rank-bm25==0.2.2
+slowapi==0.1.10
+uvicorn[standard]==0.54.0
+wordllama==0.4.0.post1
