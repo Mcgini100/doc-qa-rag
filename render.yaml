@@ -1,0 +1,12 @@
+# Render Blueprint: New > Blueprint > select this repo (free plan, Docker runtime).
+services:
+  - type: web
+    name: doc-qa-rag
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY      # set in the dashboard; leave empty for offline mode
+        sync: false
+      - key: ADMIN_TOKEN         # protects POST /ingest
+        generateValue: true

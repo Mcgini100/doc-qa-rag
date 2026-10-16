@@ -1,0 +1,34 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt -r requirements-dev.txt
+      - name: Unit and API tests (offline, no API key needed)
+        run: pytest -q
+      - name: Retrieval evaluation (local embeddings)
+        run: python -m eval.run_eval
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: pytest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t doc-qa-rag .
+      - name: Start container and query it
+        run: |
+          docker run -d -p 8000:8000 --name rag doc-qa-rag
+          for i in $(seq 1 30); do curl -fsS localhost:8000/health && break; sleep 2; done
+          curl -fsS -X POST localhost:8000/ask -H 'Content-Type: application/json' \
+            -d '{"question":"Which body is the Data Protection Authority?"}' | tee /tmp/ask.json
+          grep -q '"found":true' /tmp/ask.json
